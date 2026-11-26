@@ -1,0 +1,15 @@
+# ML service dependencies — install inside a Python 3.12 venv (NOT 3.15: no TF wheels)
+#   py -3.12 -m venv .venv
+#   .venv\Scripts\activate        (Windows)   |   source .venv/bin/activate  (Mac/Linux)
+#   pip install -r requirements.txt
+flask>=3.0
+flask-cors>=4.0
+# NOTE: Model 2's backup file (efficientnetb3-Plant Village Disease-99.71.h5) was saved by
+# TensorFlow 2.9. Modern TensorFlow (Keras 3) loads legacy .h5 full models fine. If a load
+# ever fails with a Keras version error, re-save the model as .keras from the notebook under
+# a current TensorFlow (model.save("model.keras")) — model.keras is the preferred file anyway.
+tensorflow>=2.16
+pillow>=10.0
+numpy>=1.26
+# Optional for production serving:
+# gunicorn>=21.0

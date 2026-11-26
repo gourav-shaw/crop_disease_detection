@@ -1,0 +1,344 @@
+[
+  {
+    "index": 0,
+    "name": "Apple - Apple Scab",
+    "code": "APL-SCAB",
+    "crop": "Apple",
+    "disease": "Apple Scab",
+    "healthy": false,
+    "severity": "Moderate"
+  },
+  {
+    "index": 1,
+    "name": "Apple - Black Rot",
+    "code": "APL-BLKR",
+    "crop": "Apple",
+    "disease": "Black Rot",
+    "healthy": false,
+    "severity": "Moderate"
+  },
+  {
+    "index": 2,
+    "name": "Apple - Cedar Apple Rust",
+    "code": "APL-RUST",
+    "crop": "Apple",
+    "disease": "Cedar Apple Rust",
+    "healthy": false,
+    "severity": "Moderate"
+  },
+  {
+    "index": 3,
+    "name": "Apple - Healthy",
+    "code": "APL-HLTY",
+    "crop": "Apple",
+    "disease": "Healthy",
+    "healthy": true,
+    "severity": "None"
+  },
+  {
+    "index": 4,
+    "name": "Blueberry - Healthy",
+    "code": "BLU-HLTY",
+    "crop": "Blueberry",
+    "disease": "Healthy",
+    "healthy": true,
+    "severity": "None"
+  },
+  {
+    "index": 5,
+    "name": "Cherry - Powdery Mildew",
+    "code": "CHR-MILD",
+    "crop": "Cherry",
+    "disease": "Powdery Mildew",
+    "healthy": false,
+    "severity": "Moderate"
+  },
+  {
+    "index": 6,
+    "name": "Cherry - Healthy",
+    "code": "CHR-HLTY",
+    "crop": "Cherry",
+    "disease": "Healthy",
+    "healthy": true,
+    "severity": "None"
+  },
+  {
+    "index": 7,
+    "name": "Corn (Maize) - Cercospora Leaf Spot / Gray Leaf Spot",
+    "code": "CRN-CERC",
+    "crop": "Corn (Maize)",
+    "disease": "Cercospora Leaf Spot / Gray Leaf Spot",
+    "healthy": false,
+    "severity": "Moderate"
+  },
+  {
+    "index": 8,
+    "name": "Corn (Maize) - Common Rust",
+    "code": "CRN-RUST",
+    "crop": "Corn (Maize)",
+    "disease": "Common Rust",
+    "healthy": false,
+    "severity": "Moderate"
+  },
+  {
+    "index": 9,
+    "name": "Corn (Maize) - Northern Leaf Blight",
+    "code": "CRN-NLB",
+    "crop": "Corn (Maize)",
+    "disease": "Northern Leaf Blight",
+    "healthy": false,
+    "severity": "High"
+  },
+  {
+    "index": 10,
+    "name": "Corn (Maize) - Healthy",
+    "code": "CRN-HLTY",
+    "crop": "Corn (Maize)",
+    "disease": "Healthy",
+    "healthy": true,
+    "severity": "None"
+  },
+  {
+    "index": 11,
+    "name": "Grape - Black Rot",
+    "code": "GRP-BLKR",
+    "crop": "Grape",
+    "disease": "Black Rot",
+    "healthy": false,
+    "severity": "Moderate"
+  },
+  {
+    "index": 12,
+    "name": "Grape - Esca (Black Measles)",
+    "code": "GRP-ESCA",
+    "crop": "Grape",
+    "disease": "Esca (Black Measles)",
+    "healthy": false,
+    "severity": "High"
+  },
+  {
+    "index": 13,
+    "name": "Grape - Leaf Blight (Isariopsis Leaf Spot)",
+    "code": "GRP-BLGT",
+    "crop": "Grape",
+    "disease": "Leaf Blight (Isariopsis Leaf Spot)",
+    "healthy": false,
+    "severity": "Moderate"
+  },
+  {
+    "index": 14,
+    "name": "Grape - Healthy",
+    "code": "GRP-HLTY",
+    "crop": "Grape",
+    "disease": "Healthy",
+    "healthy": true,
+    "severity": "None"
+  },
+  {
+    "index": 15,
+    "name": "Orange - Huanglongbing (Citrus Greening)",
+    "code": "ORG-HLB",
+    "crop": "Orange",
+    "disease": "Huanglongbing (Citrus Greening)",
+    "healthy": false,
+    "severity": "High"
+  },
+  {
+    "index": 16,
+    "name": "Peach - Bacterial Spot",
+    "code": "PCH-BACT",
+    "crop": "Peach",
+    "disease": "Bacterial Spot",
+    "healthy": false,
+    "severity": "Moderate"
+  },
+  {
+    "index": 17,
+    "name": "Peach - Healthy",
+    "code": "PCH-HLTY",
+    "crop": "Peach",
+    "disease": "Healthy",
+    "healthy": true,
+    "severity": "None"
+  },
+  {
+    "index": 18,
+    "name": "Bell Pepper - Bacterial Spot",
+    "code": "PEP-BACT",
+    "crop": "Bell Pepper",
+    "disease": "Bacterial Spot",
+    "healthy": false,
+    "severity": "Moderate"
+  },
+  {
+    "index": 19,
+    "name": "Bell Pepper - Healthy",
+    "code": "PEP-HLTY",
+    "crop": "Bell Pepper",
+    "disease": "Healthy",
+    "healthy": true,
+    "severity": "None"
+  },
+  {
+    "index": 20,
+    "name": "Potato - Early Blight",
+    "code": "POT-EBLT",
+    "crop": "Potato",
+    "disease": "Early Blight",
+    "healthy": false,
+    "severity": "Moderate"
+  },
+  {
+    "index": 21,
+    "name": "Potato - Late Blight",
+    "code": "POT-LBLT",
+    "crop": "Potato",
+    "disease": "Late Blight",
+    "healthy": false,
+    "severity": "High"
+  },
+  {
+    "index": 22,
+    "name": "Potato - Healthy",
+    "code": "POT-HLTY",
+    "crop": "Potato",
+    "disease": "Healthy",
+    "healthy": true,
+    "severity": "None"
+  },
+  {
+    "index": 23,
+    "name": "Raspberry - Healthy",
+    "code": "RSP-HLTY",
+    "crop": "Raspberry",
+    "disease": "Healthy",
+    "healthy": true,
+    "severity": "None"
+  },
+  {
+    "index": 24,
+    "name": "Soybean - Healthy",
+    "code": "SOY-HLTY",
+    "crop": "Soybean",
+    "disease": "Healthy",
+    "healthy": true,
+    "severity": "None"
+  },
+  {
+    "index": 25,
+    "name": "Squash - Powdery Mildew",
+    "code": "SQU-MILD",
+    "crop": "Squash",
+    "disease": "Powdery Mildew",
+    "healthy": false,
+    "severity": "Moderate"
+  },
+  {
+    "index": 26,
+    "name": "Strawberry - Leaf Scorch",
+    "code": "STR-SCOR",
+    "crop": "Strawberry",
+    "disease": "Leaf Scorch",
+    "healthy": false,
+    "severity": "Moderate"
+  },
+  {
+    "index": 27,
+    "name": "Strawberry - Healthy",
+    "code": "STR-HLTY",
+    "crop": "Strawberry",
+    "disease": "Healthy",
+    "healthy": true,
+    "severity": "None"
+  },
+  {
+    "index": 28,
+    "name": "Tomato - Bacterial Spot",
+    "code": "TOM-BACT",
+    "crop": "Tomato",
+    "disease": "Bacterial Spot",
+    "healthy": false,
+    "severity": "Moderate"
+  },
+  {
+    "index": 29,
+    "name": "Tomato - Early Blight",
+    "code": "TOM-EBLT",
+    "crop": "Tomato",
+    "disease": "Early Blight",
+    "healthy": false,
+    "severity": "Moderate"
+  },
+  {
+    "index": 30,
+    "name": "Tomato - Late Blight",
+    "code": "TOM-LBLT",
+    "crop": "Tomato",
+    "disease": "Late Blight",
+    "healthy": false,
+    "severity": "High"
+  },
+  {
+    "index": 31,
+    "name": "Tomato - Leaf Mold",
+    "code": "TOM-MOLD",
+    "crop": "Tomato",
+    "disease": "Leaf Mold",
+    "healthy": false,
+    "severity": "Moderate"
+  },
+  {
+    "index": 32,
+    "name": "Tomato - Septoria Leaf Spot",
+    "code": "TOM-SEPT",
+    "crop": "Tomato",
+    "disease": "Septoria Leaf Spot",
+    "healthy": false,
+    "severity": "Moderate"
+  },
+  {
+    "index": 33,
+    "name": "Tomato - Spider Mites (Two-spotted Spider Mite)",
+    "code": "TOM-MITE",
+    "crop": "Tomato",
+    "disease": "Spider Mites (Two-spotted Spider Mite)",
+    "healthy": false,
+    "severity": "Moderate"
+  },
+  {
+    "index": 34,
+    "name": "Tomato - Target Spot",
+    "code": "TOM-TARG",
+    "crop": "Tomato",
+    "disease": "Target Spot",
+    "healthy": false,
+    "severity": "Moderate"
+  },
+  {
+    "index": 35,
+    "name": "Tomato - Yellow Leaf Curl Virus",
+    "code": "TOM-YLCV",
+    "crop": "Tomato",
+    "disease": "Yellow Leaf Curl Virus",
+    "healthy": false,
+    "severity": "High"
+  },
+  {
+    "index": 36,
+    "name": "Tomato - Tomato Mosaic Virus",
+    "code": "TOM-MOSV",
+    "crop": "Tomato",
+    "disease": "Tomato Mosaic Virus",
+    "healthy": false,
+    "severity": "High"
+  },
+  {
+    "index": 37,
+    "name": "Tomato - Healthy",
+    "code": "TOM-HLTY",
+    "crop": "Tomato",
+    "disease": "Healthy",
+    "healthy": true,
+    "severity": "None"
+  }
+]

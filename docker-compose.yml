@@ -1,0 +1,12 @@
+services:
+  mongo:
+    image: mongo:7
+    container_name: crop-disease-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - crop_mongo_data:/data/db
+    restart: unless-stopped
+
+volumes:
+  crop_mongo_data:
